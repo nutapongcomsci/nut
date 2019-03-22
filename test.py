@@ -11,5 +11,7 @@ def grad_assign(score):
 def grade_req(eng, math):
     if eng > 70 and math < 80:
         return True
-    else:
+    else:scor <49:
+            return 'เกรด F'
+        
   
